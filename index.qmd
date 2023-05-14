@@ -23,7 +23,6 @@ library(tibble)
 
 mydata <- tibble(x = 1:10, y = x^2)
 print(mydata)
-ojs_define(mydata)
 ```
 
 And we can take the data that we've exported with `ojs_define` and send it to an Observable chart:
